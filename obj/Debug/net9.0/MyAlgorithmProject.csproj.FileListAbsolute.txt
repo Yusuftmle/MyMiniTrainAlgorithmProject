@@ -1,0 +1,14 @@
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\bin\Debug\net9.0\MyAlgorithmProject.exe
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\bin\Debug\net9.0\MyAlgorithmProject.deps.json
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\bin\Debug\net9.0\MyAlgorithmProject.runtimeconfig.json
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\bin\Debug\net9.0\MyAlgorithmProject.dll
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\bin\Debug\net9.0\MyAlgorithmProject.pdb
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\MyAlgorithmProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\MyAlgorithmProject.AssemblyInfoInputs.cache
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\MyAlgorithmProject.AssemblyInfo.cs
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\MyAlgorithmProject.csproj.CoreCompileInputs.cache
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\MyAlgorithmProject.dll
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\refint\MyAlgorithmProject.dll
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\MyAlgorithmProject.pdb
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\MyAlgorithmProject.genruntimeconfig.cache
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\ref\MyAlgorithmProject.dll
