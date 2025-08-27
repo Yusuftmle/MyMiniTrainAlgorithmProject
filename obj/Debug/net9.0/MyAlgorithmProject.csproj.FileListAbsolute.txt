@@ -12,3 +12,4 @@ C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0
 C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\MyAlgorithmProject.pdb
 C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\MyAlgorithmProject.genruntimeconfig.cache
 C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\ref\MyAlgorithmProject.dll
+C:\Users\hucks\OneDrive\Masaüstü\ALGORITHM\MyAlgorithmProject\obj\Debug\net9.0\MyAlgorithmProject.sourcelink.json
