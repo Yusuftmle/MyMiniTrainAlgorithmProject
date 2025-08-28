@@ -7,7 +7,6 @@
 > A comprehensive collection of **algorithm implementations in C#** designed to sharpen programming skills and strengthen problem-solving fundamentals.
 
 ---
-
 ## 📋 Table of Contents
 - [🎯 Overview](#-overview)
 - [⚡ Algorithms Included](#-algorithms-included)
