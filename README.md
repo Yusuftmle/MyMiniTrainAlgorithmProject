@@ -70,8 +70,29 @@ int[] data = {10, 5, 8, 20, 3};
 - **Even Sum:** Sum of even numbers only
 - **Custom Filters:** Extensible for various conditions
 
----
+🔍 Binary Search
+```csharp
+int[] sortedArr = {2, 5, 8, 12, 16, 23, 38, 45, 67, 78, 89, 99};
+int target = 23;
+int index = BinarySearch(sortedArr, target); // Returns index of target
 
+```
+📝 Problem: Search for an element in a sorted array efficiently
+
+💡 Approach: Divide-and-conquer, repeatedly split the array
+
+⏱️ Complexity: O(log n) time, O(1) space
+---
+🔢 Bubble Sort
+```csharp
+int[] data = {10, 5, 8, 20, 3};
+// Computes: Max, Min, Sum, Average, Range
+```
+📝 Problem: Sort an array in ascending order
+
+💡 Approach: Compare adjacent elements and swap if needed
+
+⏱️ Complexity: O(n²) time, O(1) space
 ## 🛠️ Getting Started
 
 ### Prerequisites
