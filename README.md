@@ -108,17 +108,30 @@ var climber = new ClimbStairs();
 int ways = climber.CountWays(10);
 Console.WriteLine($"Ways to climb 10 stairs: {ways}");
 ```
+Binary Search
+```csharp
+int[] sortedArr = {2, 5, 8, 12, 16, 23, 38, 45, 67, 78, 89, 99};
+int target = 23;
+int index = BinarySearch(sortedArr, target); // Returns index of target
 
+```
+🔢 Bubble Sort
+```csharp
+int[] arr = {64, 34, 25, 12, 22, 11, 90};
+BubbleSort(arr); // Sorts array in ascending order
+```
 ---
 
 ## 📊 Complexity Analysis
 
-| Algorithm | Time Complexity | Space Complexity | Difficulty |
-|-----------|----------------|------------------|------------|
-| Two Sum (Brute Force) | O(n²) | O(1) | 🟢 Easy |
-| Climb Stairs (DP) | O(n) | O(n) | 🟡 Medium |
-| Array Statistics | O(n) | O(1) | 🟢 Easy |
-| Sum Operations | O(n) | O(1) | 🟢 Easy |
+| Algorithm             | Time Complexity | Space Complexity | Difficulty |
+| --------------------- | --------------- | ---------------- | ---------- |
+| Two Sum (Brute Force) | O(n²)           | O(1)             | 🟢 Easy    |
+| Climb Stairs (DP)     | O(n)            | O(n)             | 🟡 Medium  |
+| Array Statistics      | O(n)            | O(1)             | 🟢 Easy    |
+| Bubble Sort           | O(n²)           | O(1)             | 🟢 Easy    |
+| Binary Search         | O(log n)        | O(1)             | 🟢 Easy    |
+
 
 ---
 
