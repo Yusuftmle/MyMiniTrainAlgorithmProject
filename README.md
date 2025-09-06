@@ -7,7 +7,6 @@
 > A comprehensive collection of **algorithm implementations in C#** designed to sharpen programming skills and strengthen problem-solving fundamentals.
 
 ---
-
 ## 📋 Table of Contents
 - [🎯 Overview](#-overview)
 - [⚡ Algorithms Included](#-algorithms-included)
@@ -70,8 +69,29 @@ int[] data = {10, 5, 8, 20, 3};
 - **Even Sum:** Sum of even numbers only
 - **Custom Filters:** Extensible for various conditions
 
----
+🔍 Binary Search
+```csharp
+int[] sortedArr = {2, 5, 8, 12, 16, 23, 38, 45, 67, 78, 89, 99};
+int target = 23;
+int index = BinarySearch(sortedArr, target); // Returns index of target
 
+```
+📝 Problem: Search for an element in a sorted array efficiently
+
+💡 Approach: Divide-and-conquer, repeatedly split the array
+
+⏱️ Complexity: O(log n) time, O(1) space
+---
+🔢 Bubble Sort
+```csharp
+int[] data = {10, 5, 8, 20, 3};
+// Computes: Max, Min, Sum, Average, Range
+```
+📝 Problem: Sort an array in ascending order
+
+💡 Approach: Compare adjacent elements and swap if needed
+
+⏱️ Complexity: O(n²) time, O(1) space
 ## 🛠️ Getting Started
 
 ### Prerequisites
@@ -108,17 +128,30 @@ var climber = new ClimbStairs();
 int ways = climber.CountWays(10);
 Console.WriteLine($"Ways to climb 10 stairs: {ways}");
 ```
+Binary Search
+```csharp
+int[] sortedArr = {2, 5, 8, 12, 16, 23, 38, 45, 67, 78, 89, 99};
+int target = 23;
+int index = BinarySearch(sortedArr, target); // Returns index of target
 
+```
+🔢 Bubble Sort
+```csharp
+int[] arr = {64, 34, 25, 12, 22, 11, 90};
+BubbleSort(arr); // Sorts array in ascending order
+```
 ---
 
 ## 📊 Complexity Analysis
 
-| Algorithm | Time Complexity | Space Complexity | Difficulty |
-|-----------|----------------|------------------|------------|
-| Two Sum (Brute Force) | O(n²) | O(1) | 🟢 Easy |
-| Climb Stairs (DP) | O(n) | O(n) | 🟡 Medium |
-| Array Statistics | O(n) | O(1) | 🟢 Easy |
-| Sum Operations | O(n) | O(1) | 🟢 Easy |
+| Algorithm             | Time Complexity | Space Complexity | Difficulty |
+| --------------------- | --------------- | ---------------- | ---------- |
+| Two Sum (Brute Force) | O(n²)           | O(1)             | 🟢 Easy    |
+| Climb Stairs (DP)     | O(n)            | O(n)             | 🟡 Medium  |
+| Array Statistics      | O(n)            | O(1)             | 🟢 Easy    |
+| Bubble Sort           | O(n²)           | O(1)             | 🟢 Easy    |
+| Binary Search         | O(log n)        | O(1)             | 🟢 Easy    |
+
 
 ---
 
