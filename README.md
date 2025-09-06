@@ -50,6 +50,72 @@ ClimbStairs(5); // Returns: 8 ways
 - **⏱️ Complexity:** O(n) time, O(n) space
 - **🧮 Formula:** `dp[i] = dp[i-1] + dp[i-2]`
 
+### 🧮 **Array Sum Calculator**
+```csharp
+int[] numbers = {1, 2, 3, 4, 5};
+int total = SumArray(numbers); // Returns: 15
+```
+- **📝 Problem:** Calculate the sum of all elements in an array
+- **💡 Approach:** Single loop iteration through array
+- **⏱️ Complexity:** O(n) time, O(1) space
+
+### 🔽 **Find Minimum Value**
+```csharp
+int[] numbers = {7, 3, 9, 1, 5, 8};
+int minimum = FindMinimum(numbers); // Returns: 1
+```
+- **📝 Problem:** Find the smallest value in an array
+- **💡 Approach:** Track minimum while iterating through array
+- **⏱️ Complexity:** O(n) time, O(1) space
+
+### 🔢 **Count Occurrences**
+```csharp
+int[] numbers = {2, 5, 3, 2, 8, 2, 1};
+int target = 2;
+int count = CountOccurrences(numbers, target); // Returns: 3
+```
+- **📝 Problem:** Count how many times a specific value appears in an array
+- **💡 Approach:** Counter variable incremented when target is found
+- **⏱️ Complexity:** O(n) time, O(1) space
+
+### 🔤 **Character Counter**
+```csharp
+string text = "programming";
+char target = 'r';
+int count = CountCharInString(text, target); // Returns: 2
+```
+- **📝 Problem:** Count occurrences of a character in a string
+- **💡 Approach:** String iteration with character comparison
+- **⏱️ Complexity:** O(n) time, O(1) space
+
+### ✉️ **Email Validation**
+```csharp
+string email = "test@gmail.com";
+bool isValid = IsValidEmail(email); // Returns: true
+```
+- **📝 Problem:** Basic email validation (contains '@' and '.')
+- **💡 Approach:** Boolean flags to track required characters
+- **⏱️ Complexity:** O(n) time, O(1) space
+
+### 🔠 **String to Uppercase (ASCII Method)**
+```csharp
+string text = "hello world";
+string result = ConvertToUppercase(text); // Returns: "HELLO WORLD"
+```
+- **📝 Problem:** Convert lowercase letters to uppercase using ASCII manipulation
+- **💡 Approach:** ASCII arithmetic (`char - 'a' + 'A'`) for lowercase conversion
+- **⏱️ Complexity:** O(n) time, O(n) space
+- **🎯 Special Feature:** Uses ASCII math instead of built-in functions
+
+### 📝 **Word Counter**
+```csharp
+string sentence = "Bu bir test cümlesi";
+int wordCount = CountWords(sentence); // Returns: 4
+```
+- **📝 Problem:** Count the number of words in a sentence
+- **💡 Approach:** Count spaces and add 1 (spaces + 1 = words)
+- **⏱️ Complexity:** O(n) time, O(1) space
+
 ### 📊 **Array Statistics Calculator**
 ```csharp
 int[] data = {10, 5, 8, 20, 3};
@@ -69,29 +135,27 @@ int[] data = {10, 5, 8, 20, 3};
 - **Even Sum:** Sum of even numbers only
 - **Custom Filters:** Extensible for various conditions
 
-🔍 Binary Search
+### 🔍 **Binary Search**
 ```csharp
 int[] sortedArr = {2, 5, 8, 12, 16, 23, 38, 45, 67, 78, 89, 99};
 int target = 23;
 int index = BinarySearch(sortedArr, target); // Returns index of target
-
 ```
-📝 Problem: Search for an element in a sorted array efficiently
+- **📝 Problem:** Search for an element in a sorted array efficiently
+- **💡 Approach:** Divide-and-conquer, repeatedly split the array
+- **⏱️ Complexity:** O(log n) time, O(1) space
 
-💡 Approach: Divide-and-conquer, repeatedly split the array
-
-⏱️ Complexity: O(log n) time, O(1) space
----
-🔢 Bubble Sort
+### 🫧 **Bubble Sort**
 ```csharp
-int[] data = {10, 5, 8, 20, 3};
-// Computes: Max, Min, Sum, Average, Range
+int[] arr = {64, 34, 25, 12, 22, 11, 90};
+BubbleSort(arr); // Sorts array in ascending order
 ```
-📝 Problem: Sort an array in ascending order
+- **📝 Problem:** Sort an array in ascending order
+- **💡 Approach:** Compare adjacent elements and swap if needed
+- **⏱️ Complexity:** O(n²) time, O(1) space
 
-💡 Approach: Compare adjacent elements and swap if needed
+---
 
-⏱️ Complexity: O(n²) time, O(1) space
 ## 🛠️ Getting Started
 
 ### Prerequisites
@@ -118,6 +182,31 @@ int[] data = {10, 5, 8, 20, 3};
 
 ### 🎮 Usage Example
 ```csharp
+// Array Sum Example
+int[] numbers = {1, 2, 3, 4, 5};
+int total = SumArray(numbers);
+Console.WriteLine($"Sum: {total}"); // Output: Sum: 15
+
+// Find Minimum Example
+int[] data = {7, 3, 9, 1, 5, 8};
+int minimum = FindMinimum(data);
+Console.WriteLine($"Minimum: {minimum}"); // Output: Minimum: 1
+
+// Count Occurrences Example
+int[] array = {2, 5, 3, 2, 8, 2, 1};
+int count = CountOccurrences(array, 2);
+Console.WriteLine($"Count of 2: {count}"); // Output: Count of 2: 3
+
+// String to Uppercase Example (ASCII Method)
+string text = "hello world";
+string uppercase = ConvertToUppercase(text);
+Console.WriteLine($"Uppercase: {uppercase}"); // Output: Uppercase: HELLO WORLD
+
+// Email Validation Example
+string email = "test@gmail.com";
+bool isValid = IsValidEmail(email);
+Console.WriteLine($"Valid email: {isValid}"); // Output: Valid email: True
+
 // Two Sum Example
 var solution = new TwoSum();
 int[] result = solution.FindTwoSum([2, 7, 11, 15], 9);
@@ -127,31 +216,31 @@ Console.WriteLine($"Indices: [{result[0]}, {result[1]}]");
 var climber = new ClimbStairs();
 int ways = climber.CountWays(10);
 Console.WriteLine($"Ways to climb 10 stairs: {ways}");
-```
-Binary Search
-```csharp
+
+// Binary Search Example
 int[] sortedArr = {2, 5, 8, 12, 16, 23, 38, 45, 67, 78, 89, 99};
 int target = 23;
 int index = BinarySearch(sortedArr, target); // Returns index of target
+```
 
-```
-🔢 Bubble Sort
-```csharp
-int[] arr = {64, 34, 25, 12, 22, 11, 90};
-BubbleSort(arr); // Sorts array in ascending order
-```
 ---
 
 ## 📊 Complexity Analysis
 
-| Algorithm             | Time Complexity | Space Complexity | Difficulty |
-| --------------------- | --------------- | ---------------- | ---------- |
-| Two Sum (Brute Force) | O(n²)           | O(1)             | 🟢 Easy    |
-| Climb Stairs (DP)     | O(n)            | O(n)             | 🟡 Medium  |
-| Array Statistics      | O(n)            | O(1)             | 🟢 Easy    |
-| Bubble Sort           | O(n²)           | O(1)             | 🟢 Easy    |
-| Binary Search         | O(log n)        | O(1)             | 🟢 Easy    |
-
+| Algorithm                      | Time Complexity | Space Complexity | Difficulty |
+| ------------------------------ | --------------- | ---------------- | ---------- |
+| Array Sum                      | O(n)            | O(1)             | 🟢 Easy    |
+| Find Minimum                   | O(n)            | O(1)             | 🟢 Easy    |
+| Count Occurrences              | O(n)            | O(1)             | 🟢 Easy    |
+| Character Counter              | O(n)            | O(1)             | 🟢 Easy    |
+| Email Validation               | O(n)            | O(1)             | 🟢 Easy    |
+| String to Uppercase (ASCII)    | O(n)            | O(n)             | 🟡 Medium  |
+| Word Counter                   | O(n)            | O(1)             | 🟢 Easy    |
+| Two Sum (Brute Force)          | O(n²)           | O(1)             | 🟢 Easy    |
+| Climb Stairs (DP)              | O(n)            | O(n)             | 🟡 Medium  |
+| Array Statistics               | O(n)            | O(1)             | 🟢 Easy    |
+| Bubble Sort                    | O(n²)           | O(1)             | 🟢 Easy    |
+| Binary Search                  | O(log n)        | O(1)             | 🟢 Easy    |
 
 ---
 
@@ -159,10 +248,11 @@ BubbleSort(arr); // Sorts array in ascending order
 
 - [ ] **Hash Map approach** for Two Sum (O(n) time)
 - [ ] **Space-optimized** Climb Stairs (O(1) space)
-- [ ] **Sorting algorithms** implementation
+- [ ] **Advanced sorting algorithms** (Quick Sort, Merge Sort)
 - [ ] **Binary search** variations
 - [ ] **Graph algorithms** basics
 - [ ] **Unit tests** for all algorithms
+- [ ] **Performance benchmarking** for algorithm comparisons
 
 ---
 
