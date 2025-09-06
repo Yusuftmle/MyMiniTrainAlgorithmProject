@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hucks\\OneDrive\\Masaüstü\\ALGORITHM\\MyAlgorithmProject\\MyAlgorithmProject.csproj",
+      "projectUniqueName": "C:\\Users\\hucks\\OneDrive\\Masaüstü\\dosyalar\\ALGORITHM\\MyAlgorithmProject\\MyAlgorithmProject.csproj",
       "projectName": "MyAlgorithmProject",
-      "projectPath": "C:\\Users\\hucks\\OneDrive\\Masaüstü\\ALGORITHM\\MyAlgorithmProject\\MyAlgorithmProject.csproj",
+      "projectPath": "C:\\Users\\hucks\\OneDrive\\Masaüstü\\dosyalar\\ALGORITHM\\MyAlgorithmProject\\MyAlgorithmProject.csproj",
       "packagesPath": "C:\\Users\\hucks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hucks\\OneDrive\\Masaüstü\\ALGORITHM\\MyAlgorithmProject\\obj\\",
+      "outputPath": "C:\\Users\\hucks\\OneDrive\\Masaüstü\\dosyalar\\ALGORITHM\\MyAlgorithmProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

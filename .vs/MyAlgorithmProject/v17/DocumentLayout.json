@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hucks\\OneDrive\\Masa\u00FCst\u00FC\\ALGORITHM\\MyAlgorithmProject\\",
+  "WorkspaceRootPath": "C:\\Users\\hucks\\OneDrive\\Masa\u00FCst\u00FC\\dosyalar\\ALGORITHM\\MyAlgorithmProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEC0443C-7A68-5B82-DF4F-2CDA0F70496C}|MyAlgorithmProject.csproj|c:\\users\\hucks\\onedrive\\masa\u00FCst\u00FC\\algorithm\\myalgorithmproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEC0443C-7A68-5B82-DF4F-2CDA0F70496C}|MyAlgorithmProject.csproj|c:\\users\\hucks\\onedrive\\masa\u00FCst\u00FC\\dosyalar\\algorithm\\myalgorithmproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEC0443C-7A68-5B82-DF4F-2CDA0F70496C}|MyAlgorithmProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hucks\\OneDrive\\Masa\u00FCst\u00FC\\ALGORITHM\\MyAlgorithmProject\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\hucks\\OneDrive\\Masa\u00FCst\u00FC\\dosyalar\\ALGORITHM\\MyAlgorithmProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\hucks\\OneDrive\\Masa\u00FCst\u00FC\\ALGORITHM\\MyAlgorithmProject\\Program.cs",
+              "ToolTip": "C:\\Users\\hucks\\OneDrive\\Masa\u00FCst\u00FC\\dosyalar\\ALGORITHM\\MyAlgorithmProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAOEBAAAAAAAAAAAwwPEBAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAEsCAAAAAAAAAAAAAIMCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T10:19:18.505Z",
               "EditorCaption": ""

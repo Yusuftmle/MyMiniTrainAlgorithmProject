@@ -529,6 +529,119 @@ namespace AlgorithmExamples
         }
 
 
+
+        string text = "programming";
+        char target = 'r';
+        // Cevap: 2 ('r' harfi 2 kez var)
+
+        public static int CountCharInString(string text, char target)
+        {
+           int  count = 0;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] == target)
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        string email = "test@gmail.com";
+
+        public static bool IsValidEmail(string email)
+        {
+            bool hasAt = false;      // '@' var mı?
+            bool hasDot = false;     // '.' var mı?
+
+            for (int i = 0; i < email.Length; i++)
+            {
+                if (email[i] == '@')
+                {
+                    hasAt = true;
+                }
+                if (email[i] == '.')  // else if değil, if!
+                {
+                    hasDot = true;
+                }
+            }
+
+            return hasAt && hasDot;  // İkisi de true olmalı
+        }
+
+
+
+
+        string sentence = "Bu bir test cümlesi";
+        // Cevap: 4 (kelime sayısı)
+
+        public static int CountWords(string sentence)
+        {
+            if (string.IsNullOrEmpty(sentence) || sentence.Trim() == "")
+                return 0;  // Boş string kontrolü
+
+            int count = 1;
+            for (int i = 0; i < sentence.Length; i++)
+            {
+                if (sentence[i] == ' ')
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+
+        string textt = "hello world";
+        // "HELLO WORLD" yap
+        /// <summary>
+        /// Converts all lowercase letters in a string to uppercase using ASCII character manipulation.
+        /// Preserves non-alphabetic characters (spaces, numbers, punctuation) unchanged.
+        /// </summary>
+        /// <param name="text">The input string to convert</param>
+        /// <returns>A new string with all lowercase letters converted to uppercase</returns>
+        /// <example>
+        /// <code>
+        /// string input = "hello world";
+        /// string result = ConvertToUppercase(input);
+        /// // result = "HELLO WORLD"
+        /// </code>
+        /// </example>
+        public static string ConvertToUppercase(string text)
+        {
+            // Initialize result string to store the converted characters
+            string result = "";
+
+            // Iterate through each character in the input string
+            for (int i = 0; i < text.Length; i++)
+            {
+                // Check if current character is a lowercase letter (ASCII range: 97-122)
+                if (text[i] >= 'a' && text[i] <= 'z')
+                {
+                    // Convert lowercase to uppercase using ASCII arithmetic:
+                    // 1. Subtract 'a' to get position in alphabet (0-25)
+                    // 2. Add 'A' to get corresponding uppercase ASCII value
+                    // Example: 'h' (104) - 'a' (97) + 'A' (65) = 72 = 'H'
+                    result += (char)(text[i] - 'a' + 'A');
+                }
+                else
+                {
+                    // Keep non-lowercase characters unchanged (spaces, numbers, punctuation, uppercase)
+                    result += text[i];
+                }
+            }
+
+            return result;
+        }
+
+
+
+
+
+
+
+
+
     }
 
 }
